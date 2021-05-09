@@ -1,0 +1,576 @@
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\appsettings.Development.json
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\appsettings.json
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\WebApp1.StaticWebAssets.xml
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\WebApp1.exe
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\WebApp1.deps.json
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\WebApp1.runtimeconfig.json
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\WebApp1.runtimeconfig.dev.json
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\WebApp1.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ref\WebApp1.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\WebApp1.pdb
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\WebApp1.Views.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\WebApp1.Views.pdb
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Humanizer.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.Identity.Client.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.OpenApi.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\System.Composition.AttributedModel.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\System.Composition.Convention.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\System.Composition.Hosting.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\System.Composition.Runtime.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\System.Composition.TypedParts.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\System.Runtime.Caching.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\source\repos\WebApp1\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.csprojAssemblyReference.cache
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.AssemblyInfo.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.RazorAssemblyInfo.cache
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.RazorAssemblyInfo.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\staticwebassets\WebApp1.StaticWebAssets.Manifest.cache
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\staticwebassets\WebApp1.StaticWebAssets.xml
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\scopedcss\bundle\WebApp1.styles.css
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.TagHelpers.input.cache
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.TagHelpers.output.cache
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.RazorCoreGenerate.cache
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Admin\Delete.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Admin\Details.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Admin\Edit.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Admin\Search.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\CasualUser\Cart.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\CasualUser\Details.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\CasualUser\FinalizeCart.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\CasualUser\Index.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\CasualUser\Search.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Home\SetSession.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Home\ShowSession.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Home\Start.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\MyModel\Cart.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\MyModel\Create.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\MyModel\Delete.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\MyModel\Details.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\MyModel\Edit.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\MyModel\Index.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\MyModel\Search.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Shared\_Category.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Shared\_LayoutStary.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Shared\_MyModel.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Shared\_ProductInCart.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.RazorTargetAssemblyInfo.cache
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.RazorTargetAssemblyInfo.cs
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.Views.pdb
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.csproj.CopyComplete
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.dll
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\ref\WebApp1.dll
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.pdb
+C:\Users\user\source\repos\WebApp1\obj\Release\net5.0\WebApp1.genruntimeconfig.cache
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\appsettings.Development.json
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\appsettings.json
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\WebApp1.StaticWebAssets.xml
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\WebApp1.exe
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\WebApp1.deps.json
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\WebApp1.runtimeconfig.json
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\WebApp1.runtimeconfig.dev.json
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\WebApp1.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ref\WebApp1.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\WebApp1.pdb
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\WebApp1.Views.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\WebApp1.Views.pdb
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Humanizer.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.CodeAnalysis.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.Identity.Client.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.OpenApi.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Newtonsoft.Json.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Newtonsoft.Json.Bson.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\System.Composition.AttributedModel.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\System.Composition.Convention.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\System.Composition.Hosting.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\System.Composition.Runtime.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\System.Composition.TypedParts.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\System.Runtime.Caching.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Users\user\source\repos\14-Egier-Michal\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.csprojAssemblyReference.cache
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.AssemblyInfoInputs.cache
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.AssemblyInfo.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.csproj.CoreCompileInputs.cache
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.RazorAssemblyInfo.cache
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.RazorAssemblyInfo.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\staticwebassets\WebApp1.StaticWebAssets.Manifest.cache
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\staticwebassets\WebApp1.StaticWebAssets.xml
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\scopedcss\bundle\WebApp1.styles.css
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.TagHelpers.input.cache
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.TagHelpers.output.cache
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.RazorCoreGenerate.cache
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Admin\Delete.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Admin\Details.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Admin\Edit.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Admin\Search.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\CasualUser\Cart.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\CasualUser\Details.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\CasualUser\FinalizeCart.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\CasualUser\Index.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\CasualUser\Search.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Home\SetSession.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Home\ShowSession.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Home\Start.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\MyModel\Cart.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\MyModel\Create.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\MyModel\Delete.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\MyModel\Details.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\MyModel\Edit.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\MyModel\Index.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\MyModel\Search.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Shared\_Category.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Shared\_LayoutStary.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Shared\_MyModel.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Shared\_ProductInCart.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.RazorTargetAssemblyInfo.cache
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.RazorTargetAssemblyInfo.cs
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.Views.pdb
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.csproj.CopyComplete
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.dll
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\ref\WebApp1.dll
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.pdb
+D:\Users\user\source\repos\14-Egier-Michal\obj\Release\net5.0\WebApp1.genruntimeconfig.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.AssemblyInfoInputs.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.AssemblyInfo.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.csproj.CoreCompileInputs.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.RazorAssemblyInfo.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.RazorAssemblyInfo.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\ref\WebApp1.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.pdb
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\staticwebassets\WebApp1.StaticWebAssets.Manifest.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\staticwebassets\WebApp1.StaticWebAssets.xml
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\scopedcss\bundle\WebApp1.styles.css
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.TagHelpers.input.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.TagHelpers.output.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.RazorCoreGenerate.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Admin\Delete.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Admin\Details.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Admin\Edit.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Admin\Search.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Home\SetSession.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Home\ShowSession.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Home\Start.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Shared\_LayoutStary.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.RazorTargetAssemblyInfo.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.RazorTargetAssemblyInfo.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\appsettings.Development.json
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\appsettings.json
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\WebApp1.StaticWebAssets.xml
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\WebApp1.exe
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\WebApp1.deps.json
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\WebApp1.runtimeconfig.json
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\WebApp1.runtimeconfig.dev.json
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\WebApp1.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ref\WebApp1.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\WebApp1.pdb
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\WebApp1.Views.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\WebApp1.Views.pdb
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Humanizer.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.Identity.Client.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.OpenApi.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\System.Composition.AttributedModel.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\System.Composition.Convention.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\System.Composition.Hosting.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\System.Composition.Runtime.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\System.Composition.TypedParts.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\System.Runtime.Caching.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.Views.pdb
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.csproj.CopyComplete
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.genruntimeconfig.cache
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Release\net5.0\WebApp1.csprojAssemblyReference.cache

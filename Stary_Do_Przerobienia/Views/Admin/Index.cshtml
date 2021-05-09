@@ -1,0 +1,18 @@
+﻿@using WebApp1.Models
+@model IEnumerable<Doctor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@Html.ActionLink("Create", "Create") |
+@Html.ActionLink("Search", "Search") |
+<table>
+    @foreach (var item in Model)
+    {
+        //Html.RenderPartial("_MyModel", item);
+        await Html.RenderPartialAsync("_MyModel", item);
+    }
+</table>
+

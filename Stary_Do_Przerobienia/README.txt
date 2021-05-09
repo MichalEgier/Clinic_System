@@ -1,0 +1,1 @@
+Wycieto caly katalog bin, poniewaz projekt przekraczal dopuszczalne rozmiary na eportalu.

@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Doctor>
+@{ Layout = "_Layout"; }
+<form id="addform" asp-action="AddMyModel" method="post">
+    <div class="form-group">
+        <label for="Name">Name:</label>
+        <input class="form-control" name="Name" />
+    </div>
+    <div class="text-center panel-body">
+        <button type="submit" class="btn btn-sm btn-primary">Dodaj</button>
+    </div>
+</form>
+<table class="table table-sm table-striped table-bordered m-2">
+    <thead><tr><th>ID</th><th>Index</th><th>Name</th></tr></thead>
+    <tbody>
+        @foreach (var r in Model)
+ {
+        <tr>
+            <td>@r.Name</td>
+        </tr>
+ }
+    </tbody>
+</table>

@@ -1,0 +1,17 @@
+﻿@model IEnumerable<WebApp1.Models.Specialization>
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h1>Search</h1>
+<table>
+        @foreach (var item in Model)
+        {
+            //Html.RenderPartial("_MyModel", item);
+            await Html.RenderPartialAsync("_Category", item);
+        }
+</table>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
