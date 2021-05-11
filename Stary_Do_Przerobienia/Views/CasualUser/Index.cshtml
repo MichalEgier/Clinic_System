@@ -1,0 +1,54 @@
+﻿@model IEnumerable<WebApp1.Models.Visit>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VisitDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientPrevisitNote)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VisitResultDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TelephoneNumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VisitDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientPrevisitNote)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VisitResultDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TelephoneNumber)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.VisitID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.VisitID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.VisitID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
