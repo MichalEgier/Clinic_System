@@ -20,7 +20,6 @@ namespace WebApp1.Controllers
         private ClinicDbContext _db;
 
         private UserManager<PatientAccount> _userManager;
-                                                                                    //nie jestem pewien czy dokladnie ta klasa
         public CasualUserController(IHostingEnvironment hostenv, ClinicDbContext db, UserManager<PatientAccount> userManager)
         {
             this._hostenv = hostenv;
@@ -33,8 +32,8 @@ namespace WebApp1.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()        
         {
-            System.Diagnostics.Debug.WriteLine("przed");
             var id = _userManager.FindByIdAsync(User.FindFirstValue(ClaimTypes.NameIdentifier)).Result.AccountOwnerID;
+            System.Diagnostics.Debug.WriteLine(_db.Patients.Where(model => model.PatientID == id).FirstOrDefault().Surname);
             var models = await _db.Visits.Where(model => model.Patient.PatientID == id).ToListAsync();
             return View(models);
         }

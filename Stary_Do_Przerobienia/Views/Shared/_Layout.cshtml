@@ -37,20 +37,18 @@
     <div>
         @if (SignInManager.IsSignedIn(User))
         {
-            <div> Jestes zalogowanym uzytkownikiem!</div>
             if (User.IsInRole("Admin"))
             {
-                <div> Jestes administratorem! Mozesz dokonywac zmian w produktach sklepu.</div>
+                <div> Jestes administratorem!</div>
             }
             else
             {
-                <div> Jestes normalnym uzytkownikiem! Mozesz przegladac sklep oraz zamawiac produkty!</div>
+                <div> Jestes zalogowanym uzytkownikiem!</div>
             }
         }
         else
         {
-            <div> Jestes niezalogowanym uzytkownikiem! Mozesz przegladac sklep oraz dodawac produkty do koszyka, jednak
-                        aby zamowic produkty musisz sie zalogowac/zarejestrowac!</div>
+            <div> Jestes niezalogowanym uzytkownikiem!</div>
         }
     </div>
     <div class="container">
