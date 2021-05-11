@@ -12,7 +12,8 @@
 <table class="table table-sm table-striped table-bordered m-2">
     <thead><tr><th>ID</th><th>Index</th><th>Name</th></tr></thead>
     <tbody>
-        @foreach (var r in Model)
+        @if(Model != null)
+            foreach (var r in Model)
  {
         <tr>
             <td>@r.Name</td>

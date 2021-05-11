@@ -7,7 +7,7 @@
 <h1>Details</h1>
 
 <div>
-    <h4>MyModel</h4>
+    <h4>Doctor details</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -22,15 +22,24 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Surname)
         </dd>
-
-
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Specializations)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CommaSeparatedSpecializations)
+        </dd>
     </dl>
 </div>
 
-<!--
+
 <div>
-    Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    Html.ActionLink("Delete", "Delete", new { id = Model.Id }) 
+    @Html.ActionLink(" --Edit-- ", "Edit", new { id = Model.DoctorID }) |
+    @Html.ActionLink(" --Delete-- ", "Delete", new { id = Model.DoctorID }) 
     <a asp-action="Index">Back to List</a>
 </div>
--->

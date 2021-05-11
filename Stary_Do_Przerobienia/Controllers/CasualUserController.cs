@@ -5,62 +5,44 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApp1.Models;
 
 namespace WebApp1.Controllers
 {
-
+        
+                                                //TAK NAPRAWDE TEN KONTROLER BEDZIE MIAL JEDNO ZADANIE I JEDEN TYLKO WIDOK
+                                                //a mianowicie przegladanie przez klienta jego historycznych wizyt, wiec i jedna metoda
+                                                //tutaj wystarczy
     public class CasualUserController : Controller
     {
         private IHostingEnvironment _hostenv;
 
         private ClinicDbContext _db;
 
-        public CasualUserController(IHostingEnvironment hostenv, ClinicDbContext db)
+        private UserManager<PatientAccount> _userManager;
+                                                                                    //nie jestem pewien czy dokladnie ta klasa
+        public CasualUserController(IHostingEnvironment hostenv, ClinicDbContext db, UserManager<PatientAccount> userManager)
         {
             this._hostenv = hostenv;
             this._db = db;
-
+            this._userManager = userManager;
+//            _userManager.GetUserAsync();
         }
 
         // GET: Start
         [Route("CasualUserController/Start")]
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index()        
         {
-            var models = await _db.Doctors.Include(model => model.Specializations).ToListAsync();
-            return View(models);
-        }
-
-        // GET: Start/Details/5
-        [Route("CasualUserController/Details/{id}")]
-        [HttpGet]
-        public ActionResult Details(int id)
-        {
-            return View(_db.Doctors.Include(model => model.Specializations).ToList().Where(model => model.DoctorID == id).FirstOrDefault());
-        }
-
-        [HttpGet]
-        public ActionResult Search()
-        {
-            return View(_db.Specializations.ToList());
-        }
-
-
-        //Metoda od wyszukiwania lekarzy z konkretna specjalizacja
-
-        [HttpGet]
-        public ActionResult Find(string name)
-        {
-            //Tutaj trzeba bedzie jakos to zrobic znowu jako kolekcje nie pojedynczy
-            //         List<Doctor> modelsInCategory = _db.Doctors.Include(model => model.Specializations).ToList().Where(model => model.Specializations.Equals(name)).ToList();
-
-            //     LinkedList<Doctor> linkedList = new LinkedList<Doctor>(modelsInCategory);
-            //     ViewData["LastView"] = View("Index", linkedList);
-            //     return (ActionResult) ViewData["LastView"];
-            //            return View("Index", linkedList);
+            //for testing purposes
+               
+            //
+     //       _db.GetPatient((await _userManager.GetUserAsync()).Result.AccountOwnerID)
+    //            _db.GetVisitsOfPatient(patient^)
+//            var models = await _db.Doctors.Include(model => model.Specializations).ToListAsync();
             return View();
         }
 

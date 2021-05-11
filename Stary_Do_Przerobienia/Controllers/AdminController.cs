@@ -33,7 +33,7 @@ namespace WebApp1.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var models = await _db.Doctors.Include(model => model.Specializations).ToListAsync();
+            var models = await _db.GetDoctorsAsync();
             return View(models);
         }
 
@@ -42,7 +42,7 @@ namespace WebApp1.Controllers
         [HttpGet]
         public ActionResult Details(int id)
         {
-            return View(_db.Doctors.Include(model => model.Specializations).ToList().Where(model => model.DoctorID == id).FirstOrDefault());
+            return View(_db.GetDoctor(id));
         }
 
 
@@ -56,59 +56,35 @@ namespace WebApp1.Controllers
             return View();
         }
 
-        /*
+        
         // POST: Start/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("AdminController/Create")]
-        public ActionResult Create(Doctor doctor, IFormCollection collection)
+        public ActionResult Create(DoctorDTO doctorDTO, IFormCollection collection)
         {
             
             try
             {
                 if (ModelState.IsValid)
                 {
-                    System.Diagnostics.Debug.WriteLine("\n\n\n MODEL IS VALID \n\n\n");
 
-                    Doctor model = new Doctor();
-                    model.Name = modelCreate.Name;
-                    model.Price = Double.Parse(modelCreate.Price, CultureInfo.InvariantCulture);
-                    model.Image = modelCreate.Image;
-                    model.Category = new Category(modelCreate.Category);
+                    Doctor doctor = new Doctor();
+                    doctor.Name = doctorDTO.Name;
+                    doctor.Surname = doctorDTO.Surname;
+                    doctor.Title = doctorDTO.Title;
 
-                    Category cat = model.Category;
-                    Category inSet = _db.Categories.ToList().FirstOrDefault(category => category.Name.Equals(cat.Name));
-                    if (inSet != null)
-                    {
-                        model.Category = inSet;
-                    }
-                    else
-                        _db.Categories.Add(cat);
-                    System.Diagnostics.Debug.WriteLine("\n\n\n AFTER ADDING CATEGORY \n\n\n");
-                    string uploadFolder = Path.Combine(_hostenv.WebRootPath, "upload");
-                    string filename = DateTime.Now.ToString("MM_dd_yyyy_HH_mm") + ".jpg";
-                    string filePath = Path.Combine(uploadFolder, filename);           //tutaj zmienic na te stemple czasowe
-                    System.Diagnostics.Debug.WriteLine(filePath);
-                    using (Stream filestr = new FileStream(filePath, FileMode.Create))
-                    {
-                        if (model.Image != null)
-                        {
-                            model.Image.CopyTo(target: filestr);
-                            model.Filepath = Path.Combine("\\upload", filename);
-                            model.AbsoluteFilepath = filePath;
-                            model.Image = null;
-                            model.OwnFile = true;
-                        }
-                        else
-                        {
-                            model.Filepath = Path.Combine("\\default", "plik.jpg");
-                            model.OwnFile = false;
-                        }
-                    }
-                    _db.Add(model);
-                    _db.SaveChanges();
-                    System.Diagnostics.Debug.WriteLine("\n\n\n AFTER ADDING FILE \n\n\n");
+                    doctor.Specializations = new LinkedList<Specialization>();
+                    //Specializations parsing
+
+                    var specializationStrings = doctorDTO.SpecializationsString.Trim().Split(" ");
+                    foreach (var specializationStr in specializationStrings)
+                        doctor.Specializations.Add(new Specialization() { SpecializationName = specializationStr });
+
+                    _db.AddDoctor(doctor);
+                    _db.SaveChanges(); 
                 }
+
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -122,11 +98,11 @@ namespace WebApp1.Controllers
         [HttpGet]
         public ActionResult Edit(int id)
         {
-            var model = _db.Doctors.Include(model => model.Specializations).ToList().First(model => model.DoctorID == id);
-            ViewData["Filepath"] = model.Filepath;
-            ViewData["Name"] = model.Name;
-            ViewData["Category"] = model.Category.Name;
-            ViewData["Price"] = model.Price;
+            var model = _db.GetDoctor(id);
+          //  ViewData["Filepath"] = model.Filepath;
+          //  ViewData["Name"] = model.Name;
+          //  ViewData["Category"] = model.Category.Name;
+          //  ViewData["Price"] = model.Price;
             return View();
         }
 
@@ -134,21 +110,25 @@ namespace WebApp1.Controllers
         [HttpPut]
         [ValidateAntiForgeryToken]
         [Route("AdminController/Edit/{id}")]
-        public ActionResult Edit(int id, MyModelCreate modelCr, IFormCollection collection)
+        public ActionResult Edit(int id, DoctorDTO doctorDTO, IFormCollection collection)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    Doctor model = new Doctor();
-                    model.Name = modelCr.Name;
-                    model.Price = Double.Parse(modelCr.Price, CultureInfo.InvariantCulture);
-                    model.Category = new Category(modelCr.Category);
+                    Doctor doctor = new Doctor();
+                    doctor.Name = doctorDTO.Name;
+                    doctor.Surname = doctorDTO.Surname;
+                    doctor.Title = doctorDTO.Title;
 
-                    model.Filepath = _db.MyModels.First(model => model.Id==id).Filepath;
-                    model.AbsoluteFilepath = _db.MyModels.First(model => model.Id == id).AbsoluteFilepath;
-                    model.OwnFile = _db.MyModels.First(model => model.Id == id).OwnFile;
-                    _db.UpdateModel(id, model);
+                    doctor.Specializations = new LinkedList<Specialization>();
+                    //Specializations parsing
+
+                    var specializationStrings = doctorDTO.SpecializationsString.Trim().Split(" ");
+                    foreach(var specializationStr in specializationStrings)
+                        doctor.Specializations.Add(new Specialization() { SpecializationName = specializationStr });
+
+                    _db.UpdateDoctor(id, doctor);
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -163,7 +143,7 @@ namespace WebApp1.Controllers
         [HttpGet]
         public ActionResult Delete(int id)
         {
-            return View(_db.MyModels.Include(model => model.Category).ToList().Where(model => model.Id == id).FirstOrDefault());
+            return View(_db.GetDoctor(id));
         }
 
         // POST: Start/Delete/5
@@ -174,17 +154,7 @@ namespace WebApp1.Controllers
         {
             try
             {
-                Doctor model = _db.MyModels.FirstOrDefault(mod => mod.Id == id);
-                if (model != null && model.OwnFile)
-                    try
-                    {
-                        System.IO.File.Delete(model.AbsoluteFilepath);
-                    }
-                    catch(System.IO.IOException e)
-                    {
-                        Console.WriteLine(e.Message);
-                    }
-                _db.DeleteModel(id);
+                _db.DeleteDoctor(id);
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -193,43 +163,22 @@ namespace WebApp1.Controllers
             }
         }
 
+        
         [HttpGet]
         public ActionResult Search()
         {
-            return View(_db.Categories.ToList());
+            return View(_db.Specializations.ToList());
         }
 
         [HttpGet]
-        public ActionResult Find(string name)
+        public async Task<ActionResult> Find(string name)
         {
-            List<Doctor> modelsInCategory = _db.MyModels.Include(model => model.Category).ToList().Where(model => model.Category.Name.Equals(name)).ToList();
-            LinkedList<Doctor> linkedList = new LinkedList<Doctor>(modelsInCategory);
+            var doctorsWithSpec = await _db.GetDoctorsWithSpecializationAsync(name);
+            LinkedList<Doctor> linkedList = new LinkedList<Doctor>(doctorsWithSpec);
        //     ViewData["LastView"] = View("Index", linkedList);
        //     return (ActionResult) ViewData["LastView"];
             return View("Index", linkedList);
         }
-
-
-        public Dictionary<Doctor, int> ToProductQuantityDict(Cart cart)
-        {
-            Dictionary<Doctor, int> result = new Dictionary<Doctor, int>();
-            foreach (var x in cart.ProductsInCart.Keys)
-            {
-                result.Add(_db.MyModels.Include(model => model.Category).Where(model => model.Id == x).First(), cart.ProductsInCart[x]);
-            }
-            return result;
-        }
-
-        public double CountCartCost(Cart cart)
-        {
-            double cost = 0.0;
-            foreach (var item in ToProductQuantityDict(cart))
-            {
-                cost += item.Key.Price * item.Value;    //price * quantity
-            }
-            return cost;
-        }
-
-        */
+        
     }
 }

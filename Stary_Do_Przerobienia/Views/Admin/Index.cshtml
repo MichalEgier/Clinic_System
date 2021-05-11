@@ -11,8 +11,8 @@
 <table>
     @foreach (var item in Model)
     {
-        //Html.RenderPartial("_MyModel", item);
-        await Html.RenderPartialAsync("_MyModel", item);
+        //Html.RenderPartial("_DoctorPartial", item);
+        await Html.RenderPartialAsync("_DoctorPartial", item);
     }
 </table>
 

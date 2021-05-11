@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace WebApp1.Models
@@ -41,6 +42,33 @@ namespace WebApp1.Models
      //   public IFormFile Photo { set; get; }
 
         //Tutaj jeszcze zdjecie doktora
+
+        public bool Equals(Doctor anotherDoctor)
+        {
+            return anotherDoctor.DoctorID == this.DoctorID;
+        }
+
+        public string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Name = " + Name + " Surname = " + Surname + " Title " + Title + " Specializations = ");
+            sb.Append(this.CommaSeparatedSpecializations);
+            return sb.ToString();
+        }
+
+        public string CommaSeparatedSpecializations
+        {
+            get
+            {
+                StringBuilder sb = new StringBuilder();
+                if (Specializations.Count == 0)
+                    sb.Append("None");
+                else
+                    foreach (var spec in Specializations)
+                        sb.Append(spec.SpecializationName + ", ");
+                return sb.ToString();
+            }
+        }
 
         /*
         [Required]

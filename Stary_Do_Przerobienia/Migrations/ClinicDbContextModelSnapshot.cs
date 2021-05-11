@@ -15,16 +15,16 @@ namespace WebApp1.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.2");
+                .HasAnnotation("ProductVersion", "5.0.4")
+                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("WebApp1.Models.Cabinet", b =>
                 {
                     b.Property<int>("CabinetID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("CabinetName")
                         .IsRequired()
@@ -32,7 +32,7 @@ namespace WebApp1.Migrations
 
                     b.HasKey("CabinetID");
 
-                    b.ToTable("Cabinet");
+                    b.ToTable("Cabinets");
                 });
 
             modelBuilder.Entity("WebApp1.Models.Doctor", b =>
@@ -40,7 +40,7 @@ namespace WebApp1.Migrations
                     b.Property<int>("DoctorID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -64,7 +64,7 @@ namespace WebApp1.Migrations
                     b.Property<int>("PatientID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -88,7 +88,7 @@ namespace WebApp1.Migrations
                     b.Property<int>("SpecializationID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("SpecializationName")
                         .IsRequired()
@@ -104,7 +104,7 @@ namespace WebApp1.Migrations
                     b.Property<int>("SpecializationDoctorBridgeID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<int?>("DoctorID")
                         .HasColumnType("int");
@@ -126,7 +126,7 @@ namespace WebApp1.Migrations
                     b.Property<int>("VisitID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<int?>("DoctorID")
                         .HasColumnType("int");

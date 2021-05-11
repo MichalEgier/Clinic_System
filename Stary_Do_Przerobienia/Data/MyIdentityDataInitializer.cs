@@ -3,12 +3,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApp1.Models;
 
 namespace WebApp1.Data
 {
     public class MyIdentityDataInitializer
     {
-        public static void SeedData(UserManager<IdentityUser> userManager,
+        public static void SeedData(UserManager<PatientAccount> userManager,
        RoleManager<IdentityRole> roleManager)
         {
             SeedRoles(roleManager);
@@ -28,16 +29,18 @@ namespace WebApp1.Data
             }
         }
 
-        public static void SeedOneUser(UserManager<IdentityUser> userManager,
+        public static void SeedOneUser(UserManager<PatientAccount> userManager,
                                  string name, string password, string role = null)
         {
             System.Diagnostics.Debug.WriteLine("\n\n\nW SeedOneUser\n\n\n");
             if (userManager.FindByNameAsync(name).Result == null)
             {
-                IdentityUser user = new IdentityUser
+                PatientAccount user = new PatientAccount
                 {
                     UserName = name, // musi być taki sam jak email, inaczej nie zadziała
-                    Email = name
+                    Email = name,
+                    TelephoneNumber = "000000000",
+                    AccountOwnerID = -1
                 };
                 IdentityResult result = userManager.CreateAsync(user, password).Result;
                 if (result.Succeeded && role != null)
@@ -51,7 +54,7 @@ namespace WebApp1.Data
                 System.Diagnostics.Debug.WriteLine("\n\n\nJuz jest taki uzytkownik!\n\n\n");
             }
         }
-        public static void SeedUsers(UserManager<IdentityUser> userManager)
+        public static void SeedUsers(UserManager<PatientAccount> userManager)
         {
             SeedOneUser(userManager, "adminuser@localhost", "Admin123@", "Admin");
             System.Diagnostics.Debug.WriteLine("\n\n\nW seed users!\n\n\n");

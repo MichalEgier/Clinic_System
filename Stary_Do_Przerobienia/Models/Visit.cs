@@ -39,7 +39,7 @@ namespace WebApp1.Models
         public string VisitResultDescription { set; get; }
 
         //not required! only when patient calls for visit reservation
-        [RegularExpression(@"[0-9]{9}", ErrorMessage = "Telephone number must be in 9 digits format!")]
+        [Phone]
         public string TelephoneNumber { set; get; }
         /*
          * Tutaj jakies metody visit

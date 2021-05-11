@@ -8,7 +8,7 @@
         @foreach (var item in Model)
         {
             //Html.RenderPartial("_MyModel", item);
-            await Html.RenderPartialAsync("_Category", item);
+            await Html.RenderPartialAsync("_SpecializationPartial", item);
         }
 </table>
 

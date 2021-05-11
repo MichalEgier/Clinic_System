@@ -29,12 +29,13 @@ namespace WebApp1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
+            
+            services.AddDbContext<IdentityDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+            services.AddDefaultIdentity<PatientAccount>(options => options.SignIn.RequireConfirmedAccount = false)
                     .AddRoles<IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<IdentityDbContext>();     
             services.AddControllersWithViews().AddNewtonsoftJson(); ;
 
             services.AddSwaggerGen();// c =>
@@ -44,6 +45,10 @@ namespace WebApp1
 
 
             services.AddDbContextPool<ClinicDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MyDb")));
+
+            //seed db
+            
+            //
 
             services.AddDistributedMemoryCache();
             services.AddSession(option =>
@@ -89,7 +94,7 @@ namespace WebApp1
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<IdentityUser> userManager, 
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<PatientAccount> userManager, 
             RoleManager<IdentityRole> roleManager)
         {
 

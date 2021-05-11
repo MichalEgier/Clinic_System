@@ -26,7 +26,7 @@ namespace WebApp1.Models
         [Required]
         public string Surname { set; get; }
         [Required]
-        [RegularExpression(@"[0-9]{12}", ErrorMessage = "Pesel must be in 12 digits format!")]
+        [RegularExpression(@"[0-9]{11}", ErrorMessage = "Pesel must be in 11 digits format!")]
         public string Pesel { set; get; }
 
     }
