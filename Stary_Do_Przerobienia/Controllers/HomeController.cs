@@ -84,14 +84,16 @@ namespace WebApp1.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    if(_db.Visits.Where(visit => visit.Doctor.DoctorID == model.DoctorID && visit.VisitDate == model.VisitDate
-                                && visit.VisitCabinet.CabinetID == model.VisitCabinet).Count() != 0)
+                    System.Diagnostics.Debug.WriteLine(model.VisitDate);
+                    if (_db.Visits.Where(visit => visit.Doctor.DoctorID == model.DoctorID && visit.VisitDate.CompareTo(model.VisitDate) == 0).Count() != 0)
                     {
                         ViewData["valid"] = "text-danger";
                         ViewData["msg"] = "Someone has already registered for this visit";
                         return View();
                     }
                     Visit newVisit = new Visit();
+                    //newVisit.VisitID = _db.Visits.Max(visit => visit.VisitID) + 1;
+                    newVisit.VisitDate = model.VisitDate;
                     newVisit.Doctor = _db.Doctors.Where(doc => doc.DoctorID == model.DoctorID).FirstOrDefault();
                     if(newVisit.Doctor is null)
                     {
