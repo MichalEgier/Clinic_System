@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApp1.Data;
+using WebApp1.Models;
 
 namespace WebApp1.Models
 {                                   //Klasa odpowiadajaca za polaczenie z baza danych, tutaj sa zdefiniowane te data sety, ktore sa w bazie
@@ -165,6 +166,15 @@ namespace WebApp1.Models
             if (spec == null)
                 return;
             this.Specializations.Remove(spec);
+        }
+
+        
+        //only for testing purposes, later won't be usefull
+        public DbSet<WebApp1.Models.VisitDTO> VisitDTO { get; set; }
+
+        public void AddVisit(Visit newVisit)
+        {
+            Visits.Add(newVisit);
         }
 
     }

@@ -9,15 +9,7 @@ using Microsoft.Extensions.Logging;
 using WebApp1.Models;
 
 namespace WebApp1.Controllers
-{
-                                        //Ten kontroler ma wykonywac routing pomiedzy tymi wszelkimi stronami statycznymi
-                                        //dostepnymi dla kazdego pacjenta, np kontakt, galeria itp itd ...
-                                        //TUTAJ NALEZY ZAIMPLEMENTOWAC TEN ROUTING ORAZ JAKIES POCZATKOWE BARDZO PRYMITYWNE WIDOKI DO TEGO
-                                        //np dla kontaktu tylko na srodku napis StronkaKontakt
-                                        //Poniewaz te stronki beda statyczne a frontend dopiero pozniej bedziemy robic
-
-                                        //jedyne co juz jako tako trzeba bedzie zrobic to ta rejestracja sie pacjenta na konkretny termin
-                                        
+{                                       
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -29,7 +21,7 @@ namespace WebApp1.Controllers
             _db = db;
         }
 
-        public ViewResult Index() => View();
+        public ViewResult Index() => View("Start");
 
         //[Authorize(Roles = "Admin")]
         [Route("Start")]
@@ -77,12 +69,87 @@ namespace WebApp1.Controllers
             return RedirectToAction("Start", "AdminController");
         }
 
-        [AllowAnonymous]
-        [Route("user")]
+        [Route("Home/Visit")]
         [HttpGet]
-        public IActionResult GoShopping()
+        public ActionResult Visit()
         {
-            return RedirectToAction("Start", "CasualUserController");
+            return View();
+        }
+
+        [Route("Home/Visit")]
+        [HttpPost]
+        public ActionResult Visit(VisitDTO model)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    if(_db.Visits.Where(visit => visit.Doctor.DoctorID == model.DoctorID && visit.VisitDate == model.VisitDate
+                                && visit.VisitCabinet.CabinetID == model.VisitCabinet).Count() != 0)
+                    {
+                        ViewData["valid"] = "text-danger";
+                        ViewData["msg"] = "Someone has already registered for this visit";
+                        return View();
+                    }
+                    Visit newVisit = new Visit();
+                    newVisit.Doctor = _db.Doctors.Where(doc => doc.DoctorID == model.DoctorID).FirstOrDefault();
+                    if(newVisit.Doctor is null)
+                    {
+                        ViewData["valid"] = "text-danger";
+                        ViewData["msg"] = "Doctor with given id doesn't exist";
+                        return View();
+                    }
+                    newVisit.PatientPrevisitNote = model.PatientPrevisitNote;
+                    newVisit.Patient = _db.Patients.Where(patient => patient.Pesel.Equals(model.Pesel)).FirstOrDefault();
+                    if (newVisit.Patient is null)
+                    {
+                        ViewData["valid"] = "text-danger";
+                        ViewData["msg"] = "Patient with given pesel doesn't exist";
+                        return View();
+                    }
+
+                    newVisit.TelephoneNumber = model.TelephoneNumber;
+
+                    ViewData["valid"] = "text-success";
+                    ViewData["msg"] = "Registered new visit!";
+                    _db.AddVisit(newVisit);
+                    _db.SaveChanges();
+                }
+
+                return View();
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        [Route("Home/Specializations")]
+        [HttpGet]
+        public ActionResult Specializations()
+        {
+            return View(_db.Specializations);
+        }
+
+        [Route("Home/Gallery")]
+        [HttpGet]
+        public ActionResult Gallery()
+        {
+            return View();
+        }
+
+        [Route("Home/Contact")]
+        [HttpGet]
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+        [Route("Home/Pricelist")]
+        [HttpGet]
+        public ActionResult Pricelist()
+        {
+            return View();
         }
     }
 }

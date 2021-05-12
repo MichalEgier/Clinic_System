@@ -15,7 +15,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Lista14</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">About us</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,10 +24,19 @@
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Specializations">Specializations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Visit">Register visit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Pricelist">Price-list</a>
                         </li>
                     </ul>
                 </div>
@@ -39,16 +48,16 @@
         {
             if (User.IsInRole("Admin"))
             {
-                <div> Jestes administratorem!</div>
+                <div class="text-info text-sm-right"> Jestes administratorem!</div>
             }
             else
             {
-                <div> Jestes zalogowanym uzytkownikiem!</div>
+                <div class="text-info text-sm-right"> Jestes zalogowanym uzytkownikiem!</div>
             }
         }
         else
         {
-            <div> Jestes niezalogowanym uzytkownikiem!</div>
+            <div class="text-info text-sm-right"> Jestes niezalogowanym uzytkownikiem!</div>
         }
     </div>
     <div class="container">
