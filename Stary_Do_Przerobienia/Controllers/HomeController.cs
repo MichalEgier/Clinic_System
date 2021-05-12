@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WebApp1.Models;
@@ -14,11 +15,13 @@ namespace WebApp1.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private ClinicDbContext _db;
+        private UserManager<PatientAccount> _userManager;
 
-        public HomeController(ILogger<HomeController> logger, ClinicDbContext db)
+        public HomeController(ILogger<HomeController> logger, ClinicDbContext db, UserManager<PatientAccount> userManager)
         {
             _logger = logger;
             _db = db;
+            _userManager = userManager;
         }
 
         public ViewResult Index() => View("Start");
@@ -71,8 +74,10 @@ namespace WebApp1.Controllers
 
         [Route("Home/Visit")]
         [HttpGet]
-        public ActionResult Visit()
+        public async Task<ActionResult> Visit()
         {
+            PatientAccount currentUser = await _userManager.GetUserAsync(HttpContext.User);
+            ViewData["PhoneNumber"] = !User.Identity.Name.Equals("") ? currentUser.TelephoneNumber : "BLAD";
             return View();
         }
 

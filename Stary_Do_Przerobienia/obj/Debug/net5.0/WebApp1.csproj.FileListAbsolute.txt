@@ -378,3 +378,9 @@ C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Stary_Do_Przerobienia\o
 C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Gallery.cshtml.g.cs
 C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Pricelist.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\CasualUser\Index.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Gallery.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Pricelist.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Specializations.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Visit.cshtml.g.cs

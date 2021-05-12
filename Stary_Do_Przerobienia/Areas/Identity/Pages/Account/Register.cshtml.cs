@@ -76,11 +76,10 @@ namespace WebApp1.Areas.Identity.Pages.Account
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
             
-            [Phone]
-            [DataType(DataType.PhoneNumber)]
+            [Required]
             [Display(Name = "Phone number")]
             [RegularExpression(@"[0-9]{9}", ErrorMessage = "Phone number must be in 9 digits format!")]
-            public string PhoneNumber { get; set; }
+            public string TelephoneNumber { get; set; }
         }
 
         public async Task OnGetAsync(string returnUrl = null)
@@ -129,7 +128,7 @@ namespace WebApp1.Areas.Identity.Pages.Account
                 //else patient with specified pesel exists and everything is ok
 
                 var user = new PatientAccount { UserName = Input.Email, Email = Input.Email, AccountOwnerID=existingPatientWithPesel.PatientID,
-                TelephoneNumber = Input.PhoneNumber};
+                TelephoneNumber = Input.TelephoneNumber};
 
                 //========================================================================================
 

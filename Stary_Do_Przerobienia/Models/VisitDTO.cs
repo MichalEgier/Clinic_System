@@ -18,8 +18,10 @@ namespace WebApp1.Models
         public string Pesel { set; get; }
         //not required!
         public string PatientPrevisitNote { set; get; }
-        //not required! only when patient calls for visit reservation
-        [Phone]
-        public string TelephoneNumber { set; get; }
+        //required even when patient calls for visit reservation
+        [Required]
+        [Display(Name = "Phone number")]
+        [RegularExpression(@"[0-9]{9}", ErrorMessage = "Phone number must be in 9 digits format!")]
+        public string TelephoneNumber { get; set; }
     }
 }
