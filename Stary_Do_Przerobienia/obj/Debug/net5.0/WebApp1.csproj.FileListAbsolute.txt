@@ -164,8 +164,6 @@ C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektK
 C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Admin\Search.cshtml.g.cs
 C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\SetSession.cshtml.g.cs
-C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\ShowSession.cshtml.g.cs
 C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Start.cshtml.g.cs
 C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -384,3 +382,4 @@ C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektK
 C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Pricelist.cshtml.g.cs
 C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Specializations.cshtml.g.cs
 C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Views\Home\Visit.cshtml.g.cs
+C:\Users\egier\Desktop\Workspace\Semestr 6\Zaawansowane_Techniki_Webowe\ProjektKoncowy\Przychodnia\Przychodnia_Backend\Clinic_System\Stary_Do_Przerobienia\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ErrorPage.cshtml.g.cs

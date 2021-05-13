@@ -28,7 +28,7 @@
             </div>
             <div class="form-group" hidden="hidden">
                 <label asp-for="DoctorID" class="control-label"></label>
-                <input asp-for="DoctorID" class="form-control" value="1" />
+                <input asp-for="DoctorID" class="form-control" value="26" />
                 <span asp-validation-for="DoctorID" class="text-danger"></span>
             </div>
             <div class="form-group" hidden="hidden">
@@ -38,7 +38,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Pesel" class="control-label"></label>
-                <input asp-for="Pesel" class="form-control" />
+                <input asp-for="Pesel" class="form-control" value=@ViewData["Pesel"]/>
                 <span asp-validation-for="Pesel" class="text-danger"></span>
             </div>
             <div class="form-group">

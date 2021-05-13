@@ -30,7 +30,8 @@ namespace WebApp1.Data
         }
 
         public static void SeedOneUser(UserManager<PatientAccount> userManager,
-                                 string name, string password, string role = null)
+                                 string name, string password, string role = null, string phoneNumber = "000000000",
+                                 int accountOwnerID = -1)
         {
             System.Diagnostics.Debug.WriteLine("\n\n\nW SeedOneUser\n\n\n");
             if (userManager.FindByNameAsync(name).Result == null)
@@ -39,8 +40,8 @@ namespace WebApp1.Data
                 {
                     UserName = name, // musi być taki sam jak email, inaczej nie zadziała
                     Email = name,
-                    TelephoneNumber = "000000000",
-                    AccountOwnerID = -1
+                    PhoneNumber = phoneNumber,
+                    AccountOwnerID = accountOwnerID
                 };
                 IdentityResult result = userManager.CreateAsync(user, password).Result;
                 if (result.Succeeded && role != null)

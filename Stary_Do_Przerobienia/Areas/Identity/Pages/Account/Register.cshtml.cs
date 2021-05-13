@@ -119,7 +119,7 @@ namespace WebApp1.Areas.Identity.Pages.Account
                 else if (!existingPatientWithPesel.Name.Equals(Input.Name) || !existingPatientWithPesel.Surname.Equals(Input.Surname)){
                     //then patient with specified pesel already exists but something is wrong - he is with another name or surname!
 
-                    return Page();  //TUTAJ TAK NAPRAWDE TRZEBA BEDZIE ZMIENIC ZEBY TO POKAZYWALO FAKTYCZNIE TO CO POWINNO!
+                    return RedirectToPage("ErrorPage");  //TUTAJ TAK NAPRAWDE TRZEBA BEDZIE ZMIENIC ZEBY TO POKAZYWALO FAKTYCZNIE TO CO POWINNO!
                                     //zeby bardziej ekspresywne byly te komunikaty
                                     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -128,7 +128,7 @@ namespace WebApp1.Areas.Identity.Pages.Account
                 //else patient with specified pesel exists and everything is ok
 
                 var user = new PatientAccount { UserName = Input.Email, Email = Input.Email, AccountOwnerID=existingPatientWithPesel.PatientID,
-                TelephoneNumber = Input.TelephoneNumber};
+                PhoneNumber = Input.TelephoneNumber};
 
                 //========================================================================================
 

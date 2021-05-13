@@ -77,7 +77,11 @@ namespace WebApp1.Controllers
         public async Task<ActionResult> Visit()
         {
             PatientAccount currentUser = await _userManager.GetUserAsync(HttpContext.User);
-            ViewData["PhoneNumber"] = !User.Identity.Name.Equals("") ? currentUser.TelephoneNumber : "BLAD";
+            if (User.IsInRole("Admin"))
+                return View();
+            ViewData["PhoneNumber"] = User.Identity.Name != null && !User.Identity.Name.Equals("") ? currentUser.PhoneNumber : "";
+            ViewData["Pesel"] = User.Identity.Name != null && !User.Identity.Name.Equals("") ? 
+                                            _db.GetPatient(currentUser.AccountOwnerID).Pesel : "";
             return View();
         }
 
