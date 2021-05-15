@@ -1,0 +1,28 @@
+﻿@page
+@model WebApp1.Areas.Identity.Pages.Account.ErrorRegistrationModel
+@{
+}
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<div class="row justify-content-md-center">
+    <div class="col-md-12">
+        <h1 style="color:red">
+            Error!
+        </h1>
+        <hr />
+        <div>
+            There is currently patient with such a pesel number in database, but the name or the surname are different than
+            specified in form! Please contact clinic via mail or phone to solve this problem or try to register again.
+        </div>
+        <hr />
+    </div>
+</div>
+<p>
+    <a href="/">
+        Go back to the mainpage
+    </a>
+</p>
