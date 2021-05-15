@@ -21,7 +21,6 @@ namespace WebApp1.Models
             this.Patient = patient;
             this.VisitCabinet = visitCabinet;
             this.PatientPrevisitNote = patientPrevisitNote;
-            this.VisitResultDescription = visitResultDescription;
             this.TelephoneNumber = telephoneNumber;
         }
         public int VisitID { set; get; }
@@ -35,10 +34,6 @@ namespace WebApp1.Models
         public Cabinet VisitCabinet { set; get; }
         //not required!
         public string PatientPrevisitNote { set; get; }
-        //not required!
-        public string VisitResultDescription { set; get; }
-
-        //not required! only when patient calls for visit reservation
         [Phone]
         public string TelephoneNumber { set; get; }
         /*

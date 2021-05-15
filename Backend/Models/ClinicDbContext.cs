@@ -130,13 +130,25 @@ namespace WebApp1.Models
         public Visit GetVisit(int id)
         {
             //tutaj jeszcze trzeba bedzie chyba zaimplementowac te klucze obce dla visit
-            return Visits.Where(model => model.VisitID == id).FirstOrDefault();
+            return Visits.Where(model => model.VisitID == id)
+                .Include(model => model.Doctor).Include(model => model.Patient)
+                .Include(model => model.VisitCabinet)
+                .FirstOrDefault();
         }
 
         public ICollection<Visit> GetVisits()
         {
             //tutaj jeszcze trzeba bedzie chyba zaimplementowac te klucze obce dla visit
-            return Visits.ToList();
+            return Visits.Include(model => model.Doctor).Include(model => model.Patient).Include(model => model.VisitCabinet).ToList();
+        }
+
+        public async Task<ICollection<Visit>> GetPatientVisits(int patientID)
+        {
+            return Visits.Include(model => model.Doctor)
+                .Include(model => model.Patient)
+                .Include(model => model.VisitCabinet)
+                .Where(model => model.Patient.PatientID == patientID)
+                .ToList();
         }
 
       /*  //no need to care about patient ID - method will handle this and will set correct id to patient before adding to db

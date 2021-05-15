@@ -34,7 +34,7 @@ namespace WebApp1.Controllers
         {
             var id = _userManager.FindByIdAsync(User.FindFirstValue(ClaimTypes.NameIdentifier)).Result.AccountOwnerID;
             System.Diagnostics.Debug.WriteLine(_db.Patients.Where(model => model.PatientID == id).FirstOrDefault().Surname);
-            var models = await _db.Visits.Where(model => model.Patient.PatientID == id).ToListAsync();
+            var models = await _db.GetPatientVisits(id);
             return View(models);
         }
 

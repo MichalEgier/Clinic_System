@@ -48,6 +48,8 @@ namespace WebApp1.Models
             return anotherDoctor.DoctorID == this.DoctorID;
         }
 
+        [NotMapped]
+        [Display(Name = "Doctor")]
         public string DoctorLabel { get { return this.Title + " " + this.Name + " " + this.Surname; } }
 
         public string ToString()

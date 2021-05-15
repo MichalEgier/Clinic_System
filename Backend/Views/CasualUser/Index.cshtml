@@ -17,12 +17,11 @@
                 @Html.DisplayNameFor(model => model.PatientPrevisitNote)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VisitResultDescription)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.TelephoneNumber)
             </th>
-            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doctor.DoctorLabel)
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -35,10 +34,10 @@
                 @Html.DisplayFor(modelItem => item.PatientPrevisitNote)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.VisitResultDescription)
+                @Html.DisplayFor(modelItem => item.TelephoneNumber)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TelephoneNumber)
+                @Html.DisplayFor(modelItem => item.Doctor.DoctorLabel)
             </td>
         </tr>
 }
