@@ -165,5 +165,32 @@ namespace WebApp1.Controllers
         {
             return View();
         }
+
+        [Route("Home/SpecifyVisit")]
+        [HttpGet]
+        public ActionResult SpecifyVisit()
+        {
+            List<String> specializations = _db.Specializations.Select(spec => spec.SpecializationName).ToList<String>();
+            if(specializations.Count != 0)
+            {
+                ViewData["Specializations"] = specializations;
+            }
+            return View();
+        }
+
+        [Route("Home/SpecifyVisit")]
+        [HttpPost]
+        public ActionResult SpecifyVisit(String specialization, DateTime date)
+        {
+            System.Diagnostics.Debug.WriteLine(specialization + " xD " + date);
+            return View();
+        }
+
+        [Route("Home/Timetable")]
+        [HttpGet]
+        public ActionResult Timetable()
+        {
+            return View(_db.GetVisitAvailabilitiesForSpecification("Ginekolog", System.DateTime.Now));
+        }
     }
 }

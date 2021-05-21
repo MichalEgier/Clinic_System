@@ -10,6 +10,10 @@ namespace WebApp1.Models
 {                                   //Klasa odpowiadajaca za polaczenie z baza danych, tutaj sa zdefiniowane te data sety, ktore sa w bazie
     public class ClinicDbContext: DbContext
     {
+        private int startHour = 9;
+        private int endHour = 16;
+        private int visitSpan = 15;
+
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<Specialization> Specializations { get; set; }
 
@@ -189,5 +193,73 @@ namespace WebApp1.Models
             Visits.Add(newVisit);
         }
 
+        public async Task<IEnumerable<VisitAvailability>> GetVisitAvailabilitiesForSpecification(String specName, DateTime prefDate)
+        {
+            List<VisitAvailability> visitAvailabilities = new List<VisitAvailability>();
+
+            DateTime startOfWeek = new DateTime();
+
+            if(prefDate < System.DateTime.Now)
+            {
+                prefDate = System.DateTime.Now;
+            }
+
+            if (prefDate.DayOfWeek == DayOfWeek.Monday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day, 9, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Tuesday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 1, 9, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Wednesday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 2, 9, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Thursday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 3, 9, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Friday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 4, 9, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Saturday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day + 2, 9, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Sunday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day + 1, 9, 0, 0);
+            }
+
+            for(int i = 0; i < 5; i++)
+            {
+                DateTime dateInWeek = startOfWeek.AddDays(i);
+                for(int j = 0; j < (endHour - startHour)*(60/visitSpan); i++)
+                {
+                    dateInWeek = dateInWeek.AddMinutes(j*visitSpan);
+                    List<Doctor> doctors = new List<Doctor>();
+
+                    if (dateInWeek > System.DateTime.Now)
+                    {
+                        doctors = await GetDoctorsWithSpecializationAsync(specName);
+                        foreach (Doctor doc in doctors)
+                        {
+                            if (Visits.Where(visit => visit.VisitDate.CompareTo(dateInWeek) == 0 && visit.Doctor.DoctorID == doc.DoctorID).ToList().Count != 0)
+                            {
+                                doctors.Remove(doctors.Find(doctor => doctor.DoctorID == doc.DoctorID));
+                            }
+                        }
+                    }
+                    
+                    visitAvailabilities.Add(new VisitAvailability() { Date = dateInWeek, DoctorCount = doctors.Count(), Specialization = specName });
+                }      
+            }
+
+            return visitAvailabilities;
+        }
+
+        public DbSet<WebApp1.Models.VisitAvailability> VisitAvailability { get; set; }
     }
 }
