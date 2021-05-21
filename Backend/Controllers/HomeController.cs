@@ -190,7 +190,8 @@ namespace WebApp1.Controllers
         [HttpGet]
         public ActionResult Timetable()
         {
-            return View(_db.GetVisitAvailabilitiesForSpecification("Ginekolog", System.DateTime.Now));
+            var model = _db.GetVisitAvailabilitiesForSpecification("Ginekolog", System.DateTime.Now);
+            return View(model.Result);
         }
     }
 }

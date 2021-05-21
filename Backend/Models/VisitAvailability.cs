@@ -11,7 +11,7 @@ namespace WebApp1.Models
         
         public int Id { get; set; }
         public DateTime Date { get; set; }
-        public int DoctorCount { get; set; }
+        public IEnumerable<Doctor> Doctor { get; set; }
         public String Specialization { get; set; }
     }
 }

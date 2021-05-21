@@ -9,9 +9,6 @@
 
 <h1>Timetable</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -38,7 +35,9 @@
             @for(int j = 0; j < 5; j++)
             {
             <td>
-                @Html.RenderPartialAsync("_SingleVisitAvailability", Model.ElementAt(i + (Model.Count() / 5)*j));
+                <a asp-action="Visit">
+                    @Html.DisplayFor(modelItem => (Model.ElementAt(i + (Model.Count() / 5)*j).Date));
+                </a>
             </td>
             }
         </tr>

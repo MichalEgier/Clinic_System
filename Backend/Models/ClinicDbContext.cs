@@ -206,54 +206,54 @@ namespace WebApp1.Models
 
             if (prefDate.DayOfWeek == DayOfWeek.Monday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day, 9, 0, 0);
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day, startHour, 0, 0);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Tuesday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 1, 9, 0, 0);
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 1, startHour, 0, 0);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Wednesday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 2, 9, 0, 0);
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 2, startHour, 0, 0);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Thursday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 3, 9, 0, 0);
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 3, startHour, 0, 0);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Friday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 4, 9, 0, 0);
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 4, startHour, 0, 0);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Saturday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day + 2, 9, 0, 0);
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day + 2, startHour, 0, 0);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Sunday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day + 1, 9, 0, 0);
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day + 1, startHour, 0, 0);
             }
 
             for(int i = 0; i < 5; i++)
             {
                 DateTime dateInWeek = startOfWeek.AddDays(i);
-                for(int j = 0; j < (endHour - startHour)*(60/visitSpan); i++)
+                for(int j = 0; j < (endHour - startHour)*(60/visitSpan); j++)
                 {
-                    dateInWeek = dateInWeek.AddMinutes(j*visitSpan);
+                    DateTime dateInDay = dateInWeek.AddMinutes(j*visitSpan);
                     List<Doctor> doctors = new List<Doctor>();
 
-                    if (dateInWeek > System.DateTime.Now)
+                    if (dateInDay > System.DateTime.Now)
                     {
                         doctors = await GetDoctorsWithSpecializationAsync(specName);
                         foreach (Doctor doc in doctors)
                         {
-                            if (Visits.Where(visit => visit.VisitDate.CompareTo(dateInWeek) == 0 && visit.Doctor.DoctorID == doc.DoctorID).ToList().Count != 0)
+                            if (Visits.Where(visit => visit.VisitDate.CompareTo(dateInDay) == 0 && visit.Doctor.DoctorID == doc.DoctorID).ToList().Count != 0)
                             {
                                 doctors.Remove(doctors.Find(doctor => doctor.DoctorID == doc.DoctorID));
                             }
                         }
                     }
                     
-                    visitAvailabilities.Add(new VisitAvailability() { Date = dateInWeek, DoctorCount = doctors.Count(), Specialization = specName });
+                    visitAvailabilities.Add(new VisitAvailability() { Date = dateInDay, Doctor = doctors, Specialization = specName });
                 }      
             }
 
