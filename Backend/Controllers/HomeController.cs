@@ -170,28 +170,24 @@ namespace WebApp1.Controllers
         [HttpGet]
         public ActionResult SpecifyVisit()
         {
-            List<String> specializations = _db.Specializations.Select(spec => spec.SpecializationName).ToList<String>();
-            if(specializations.Count != 0)
-            {
-                ViewData["Specializations"] = specializations;
-            }
+            List<String> specs = _db.Specializations.Select(spec => spec.SpecializationName).ToList<String>();
+            ViewData["Specializations"] = specs;
             return View();
         }
 
         [Route("Home/SpecifyVisit")]
         [HttpPost]
-        public ActionResult SpecifyVisit(String specialization, DateTime date)
+        public ActionResult SpecifyVisit(SpecifyVisit sv)
         {
-            System.Diagnostics.Debug.WriteLine(specialization + " xD " + date);
-            return View();
+            System.Diagnostics.Debug.WriteLine(sv.Specialization + " " + sv.Date);
+            return View("Timetable", (_db.GetVisitAvailabilitiesForSpecification(sv.Specialization, sv.Date).Result));
         }
 
         [Route("Home/Timetable")]
         [HttpGet]
-        public ActionResult Timetable()
+        public ActionResult Timetable(IEnumerable<VisitAvailability> visitAvailabilities)
         {
-            var model = _db.GetVisitAvailabilitiesForSpecification("Ginekolog", System.DateTime.Now);
-            return View(model.Result);
+            return View(visitAvailabilities);
         }
     }
 }

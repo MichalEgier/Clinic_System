@@ -261,5 +261,7 @@ namespace WebApp1.Models
         }
 
         public DbSet<WebApp1.Models.VisitAvailability> VisitAvailability { get; set; }
+
+        public DbSet<WebApp1.Models.SpecifyVisit> SpecifyVisit { get; set; }
     }
 }

@@ -769,6 +769,7 @@ C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Backend\obj\Debug\net5.
 C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Backend\obj\Debug\net5.0\ref\WebApp1.dll
 C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Backend\obj\Debug\net5.0\WebApp1.pdb
 C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Backend\obj\Debug\net5.0\WebApp1.genruntimeconfig.cache
-C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Backend\obj\Debug\net5.0\Razor\Views\Home\SpecifyVisit.cshtml.g.cs
 C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Backend\obj\Debug\net5.0\Razor\Views\Shared\_SingleVisitAvailability.cshtml.g.cs
 C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Backend\obj\Debug\net5.0\Razor\Views\Home\Timetable.cshtml.g.cs
+C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Backend\obj\Debug\net5.0\Razor\Views\Home\SpecifyVisitStare.cshtml.g.cs
+C:\Users\pppkw\source\repos\WebowkaProjekt\Clinic_System\Backend\obj\Debug\net5.0\Razor\Views\Home\SpecifyVisit.cshtml.g.cs

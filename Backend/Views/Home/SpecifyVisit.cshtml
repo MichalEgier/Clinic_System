@@ -1,53 +1,42 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model WebApp1.Models.SpecifyVisit
 
-@using System.Collections.Generic;
 @{
+    ViewData["Title"] = "SpecifyVisit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<h1>SpecifyVisit</h1>
+
+<h4>SpecifyVisit</h4>
+<hr />
 <div class="row">
-    @if (ViewData["Specializations"] is null)
-    {
-        <div class="text-danger">There is no doctors in our clinic yet.</div>
-    }
-     else
-            {
-<div class="col-md-4">
-    @using (Html.BeginForm("SpecifyVisit", "Home", FormMethod.Post))
-    {
-        <label>Specialization</label>
-        <div>
-            <select>
-                @foreach (String spec in (IEnumerable<String>)ViewData["Specializations"])
-                {
-                    <option value="@spec">@spec</option>
-                }
-            </select>
-        </div>
-        <label>Preferable date for visit</label>
-        <input type="date"/>
-        <div>
-            <input type="submit" value="Search" />
-        </div>
-    }
-    @*<form asp-action="SpecifyVisit" method="post">
-        <label>Specialization</label>
-        <div>
-            <select>
-                @foreach (String spec in (IEnumerable<String>)ViewData["Specializations"])
-                {
-                    <option value="@spec">@spec</option>
-                }
-            </select>
-        </div>
-        <label>Preferable date for visit</label>
-        <input type="date" placeholder="@System.DateTime.Now" />
-        <div>
-            <input type="submit" value="Search" />
-        </div>
-    </form>*@
+    <div class="col-md-4">
+        <form asp-action="SpecifyVisit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Specialization" class="control-label"></label>
+                <div>
+                    <select asp-for="Specialization">
+                        @foreach (String spec in (IEnumerable<String>)ViewData["Specializations"])
+                            {
+                            <option value="@spec">@spec</option>
+                            }
+                    </select>
+                </div>
+                <span asp-validation-for="Specialization" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
 </div>
-            }
-    
-</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
