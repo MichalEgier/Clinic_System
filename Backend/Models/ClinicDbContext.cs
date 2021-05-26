@@ -241,14 +241,14 @@ namespace WebApp1.Models
                 {
                     DateTime dateInDay = dateInWeek.AddMinutes(j * visitSpan);
                     Doctor doctor = null;
-                    ICollection<Doctor> doctors = new List<Doctor>() { doctor };
+                    ICollection<Doctor> doctors = new List<Doctor>();
                     if (dateInDay > System.DateTime.Now)
                     {
                         doctor = GetDoctor(doctorID);
 
-                            if (Visits.Where(visit => visit.VisitDate.CompareTo(dateInDay) == 0 && visit.Doctor.DoctorID == doctorID).ToList().Count != 0)
+                            if (Visits.Where(visit => visit.VisitDate.CompareTo(dateInDay) == 0 && visit.Doctor.DoctorID == doctorID).ToList().Count == 0)
                             {
-                                doctors.Remove(doctor);
+                                doctors.Add(doctor);
                             }
                         
                     }

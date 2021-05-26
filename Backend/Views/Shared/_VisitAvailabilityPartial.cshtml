@@ -37,18 +37,36 @@
 </style>
 <td>
     <button asp-action="Visit" class="Visit @Model.VisitAvailabilityColor">
-        <!--Html.ActionLink(" Register", "Visit" , "HomeController" , null, null, null, new VisitAvailability { Id=(Model.Id) }, null)-->
         @if (Model.VisitAvailable)
         {
-            <a asp-action="Visit" style="color: black">
-                @Html.DisplayFor(modelItem => (Model.Date))
-                <div>
-                    Doctors available:
-                </div>
-                <strong>
-                    @Html.DisplayFor(modelItem => Model.DoctorsAvailable)
-                </strong>
-            </a>
+            /*<a asp-action="Visit" style="color: black">   */
+            @Html.DisplayFor(modelItem => (Model.Date))
+            <div>
+                Doctors available:
+            </div>
+            <strong>
+                @Html.DisplayFor(modelItem => Model.DoctorsAvailable)
+            </strong>
+            /*            </a>  */
+            @Html.ActionLink("Register", "Visit", "Home", null, null, null, new
+            {
+                year = Model.Date.Year,
+                month = Model.Date.Month,
+           day = Model.Date.Day,
+                hour = Model.Date.Hour,
+                minute = Model.Date.Minute,
+                doctorID = Model.Doctor.ElementAt(0).DoctorID
+            }, null)
+        }
+        else if (Model.Date < DateTime.Now)    /*then it is expired visit */
+        {
+            @Html.DisplayFor(modelItem => (Model.Date))
+            <div>
+                Unavailable
+            </div>
+            <strong>
+                Visit expired!
+            </strong>
         }
         else
         {

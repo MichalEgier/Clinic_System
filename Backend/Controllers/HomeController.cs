@@ -72,9 +72,9 @@ namespace WebApp1.Controllers
             return RedirectToAction("Start", "AdminController");
         }
 
-        [Route("Home/Visit")]
+        [Route("Home/Visit/{year}/{month}/{day}/{hour}/{minute}/{doctorID}")]
         [HttpGet]
-        public async Task<ActionResult> Visit(Object visitDTO)
+        public async Task<ActionResult> Visit(int year, int month, int day, int hour, int minute, int doctorID)
         {
             //            VisitAvailability visitAvailability = null;
             //           if (visitAvailabilityID != null)
@@ -95,12 +95,18 @@ namespace WebApp1.Controllers
             ViewData["PhoneNumber"] = User.Identity.Name != null && !User.Identity.Name.Equals("") ? currentUser.PhoneNumber : "";
             ViewData["Pesel"] = User.Identity.Name != null && !User.Identity.Name.Equals("") ? 
                                             _db.GetPatient(currentUser.AccountOwnerID).Pesel : "";
-            if (visitDTO != null && visitDTO is VisitDTO)
-                return View((VisitDTO)visitDTO);
+
+            //tutaj cos trzeba zrobic zeby zablokowac opcje jednak bez wyboru lekarza
+//            if (year != null && month != null && day != null && hour != null && minute != null && doctorID != null)
+//            {
+                DateTime date = new DateTime(year, month, day, hour, minute, 0);
+                return View(new VisitDTO() { VisitDate = date, DoctorID = doctorID });
+ //           }
+
             return View();
         }
 
-        [Route("Home/Visit")]
+        [Route("Home/Visit/{year}/{month}/{day}/{hour}/{minute}/{doctorID}")]
         [HttpPost]
         public ActionResult Visit(VisitDTO model)
         {
@@ -142,7 +148,9 @@ namespace WebApp1.Controllers
                     _db.SaveChanges();
                 }
 
-                return View();
+                //tutaj do ViewData wpakujemy cos zeby wyswietlilo ten pop up
+                return View();   //redirecting to index  //tutaj jeszcze pop up trzeba by bylo
+                                //View("Start") dla przekierowania na index
             }
             catch
             {
@@ -181,6 +189,15 @@ namespace WebApp1.Controllers
             return View();
         }
 
+        [Route("Home/DoctorVisits/{doctorID}")]
+        [HttpGet]
+        public ActionResult DoctorVisits(int doctorID)
+        {
+            ViewData["TimetableInfo"] = "Doctor: " + _db.GetDoctor(doctorID).DoctorLabel;
+            return View("Timetable", (_db.GetVisitAvailabilitiesDoctor(doctorID, DateTime.Now).Result));
+        }
+
+
         [Route("Home/SpecifyVisit")]
         [HttpGet]
         public ActionResult SpecifyVisit()
@@ -190,18 +207,12 @@ namespace WebApp1.Controllers
             return View();
         }
 
-        [Route("Home/SpecifyVisit/{doctorID}")]
-        [HttpGet]
-        public ActionResult SpecifyVisitsForDoctor(int doctorID)
-        {
-            return null;
-        }
-
         [Route("Home/SpecifyVisit")]
         [HttpPost]
         public ActionResult SpecifyVisit(SpecifyVisit sv)
         {
             System.Diagnostics.Debug.WriteLine(sv.Specialization + " " + sv.Date);
+            ViewData["TimetableInfo"] = "Specialization: " + sv.Specialization; 
             return View("Timetable", (_db.GetVisitAvailabilitiesForSpecification(sv.Specialization, sv.Date).Result));
         }
 

@@ -72,7 +72,7 @@
                                     <div class="col-md-10">
                                         @doctor.DoctorLabel
                                         <button class="btn-primary float-right">
-                                                @Html.ActionLink("register visit", "Visit", null, null, new {@class = "visitLink"})
+                                                @Html.ActionLink("register visit", "DoctorVisits", "Home", null, null, null, new { doctorID = doctor.DoctorID }, new { @class = "visitLink"})
                                         </button>
                                     </div>
                                 </div>
