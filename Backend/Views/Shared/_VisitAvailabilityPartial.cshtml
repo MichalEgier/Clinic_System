@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model WebApp1.Models.VisitAvailability
+
+<style>
+    .Visit {
+        height: 100%;
+        padding: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .lightgray {
+        background-color: lightgrey;
+    }
+
+    .lightgreen {
+        background-color: lightgreen;
+        transition: transform .2s;
+        margin: 0 auto;
+    }
+        /*behavior on mouse hover*/
+        .lightgreen:hover {
+            -ms-transform: scale(1.2); /* IE 9 */
+            -webkit-transform: scale(1.2); /* Safari 3-8 */
+            transform: scale(1.2); /*enlarge in scale 1.2*/
+            background-color: lawngreen; /*change color to lawngreen*/
+        }
+</style>
+<td>
+    <button asp-action="Visit" class="Visit @Model.VisitAvailabilityColor">
+        <!--Html.ActionLink(" Register", "Visit" , "HomeController" , null, null, null, new VisitAvailability { Id=(Model.Id) }, null)-->
+        @if (Model.VisitAvailable)
+        {
+            <a asp-action="Visit" style="color: black">
+                @Html.DisplayFor(modelItem => (Model.Date))
+                <div>
+                    Doctors available:
+                </div>
+                <strong>
+                    @Html.DisplayFor(modelItem => Model.DoctorsAvailable)
+                </strong>
+            </a>
+        }
+        else
+        {
+            @Html.DisplayFor(modelItem => (Model.Date))
+            <div>
+                Doctors available:
+            </div>
+            <strong>
+                @Html.DisplayFor(modelItem => Model.DoctorsAvailable)
+            </strong>
+        }
+    </button>
+</td>

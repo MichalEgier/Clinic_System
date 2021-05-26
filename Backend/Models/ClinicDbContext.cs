@@ -193,6 +193,75 @@ namespace WebApp1.Models
             Visits.Add(newVisit);
         }
 
+
+        public async Task<IEnumerable<VisitAvailability>> GetVisitAvailabilitiesDoctor(int doctorID, DateTime prefDate)
+        {
+            List<VisitAvailability> visitAvailabilities = new List<VisitAvailability>();
+
+            DateTime startOfWeek = new DateTime();
+
+            if (prefDate < System.DateTime.Now)
+            {
+                prefDate = System.DateTime.Now;
+            }
+
+            if (prefDate.DayOfWeek == DayOfWeek.Monday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day, startHour, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Tuesday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 1, startHour, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Wednesday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 2, startHour, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Thursday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 3, startHour, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Friday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 4, startHour, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Saturday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day + 2, startHour, 0, 0);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Sunday)
+            {
+                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day + 1, startHour, 0, 0);
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                DateTime dateInWeek = startOfWeek.AddDays(i);
+                for (int j = 0; j < (endHour - startHour) * (60 / visitSpan); j++)
+                {
+                    DateTime dateInDay = dateInWeek.AddMinutes(j * visitSpan);
+                    Doctor doctor = null;
+                    ICollection<Doctor> doctors = new List<Doctor>() { doctor };
+                    if (dateInDay > System.DateTime.Now)
+                    {
+                        doctor = GetDoctor(doctorID);
+
+                            if (Visits.Where(visit => visit.VisitDate.CompareTo(dateInDay) == 0 && visit.Doctor.DoctorID == doctorID).ToList().Count != 0)
+                            {
+                                doctors.Remove(doctor);
+                            }
+                        
+                    }
+
+                    visitAvailabilities.Add(new VisitAvailability() { Date = dateInDay, Doctor = doctors });
+                }
+            }
+
+            return visitAvailabilities;
+        }
+                                                                        //to nie w klasie context!!!
+                                                                        //raczej wydaje mi sie ze w kontrolerze albo klasie VisAvail
+                                                                        //predzej powinno byc
         public async Task<IEnumerable<VisitAvailability>> GetVisitAvailabilitiesForSpecification(String specName, DateTime prefDate)
         {
             List<VisitAvailability> visitAvailabilities = new List<VisitAvailability>();
@@ -244,24 +313,45 @@ namespace WebApp1.Models
                     if (dateInDay > System.DateTime.Now)
                     {
                         doctors = await GetDoctorsWithSpecializationAsync(specName);
+
+                        ICollection<Doctor> doctors_to_remove = new List<Doctor>(); ;
+
                         foreach (Doctor doc in doctors)
                         {
                             if (Visits.Where(visit => visit.VisitDate.CompareTo(dateInDay) == 0 && visit.Doctor.DoctorID == doc.DoctorID).ToList().Count != 0)
                             {
-                                doctors.Remove(doctors.Find(doctor => doctor.DoctorID == doc.DoctorID));
+                                doctors_to_remove.Add(doc);
                             }
                         }
+
+                        foreach (var rem_doct in doctors_to_remove)
+                            doctors.Remove(rem_doct);
+
+                        //
+                        /*
+                          foreach (Doctor doc in doctors)
+                        {
+                            if (Visits.Where(visit => visit.VisitDate.CompareTo(dateInDay) == 0 && visit.Doctor.DoctorID == doc.DoctorID).ToList().Count != 0)
+                            {
+                                //doctors.Remove(doctors.Find(doctor => doctor.DoctorID == doc.DoctorID));
+                                //tak bylo wczesniej - to nie zadziala bo wypierdoli concurrent modification exception!
+                                //druga sprawa ze jeszcze foreach jest na gorze to podwojnie wyjebie XDDDD
+                                ICollection<Doctor> doctors_to_remove = doctors.FindAll(doctor => doctor.DoctorID == doc.DoctorID);
+                                foreach (var rem_doct in doctors_to_remove)
+                                    doctors.Remove(rem_doct);
+                            }
+                        }       //      */
                     }
-                    
+
                     visitAvailabilities.Add(new VisitAvailability() { Date = dateInDay, Doctor = doctors, Specialization = specName });
                 }      
             }
 
             return visitAvailabilities;
         }
-
+                                                            //nazwac liczba mnoga i na poczatek
         public DbSet<WebApp1.Models.VisitAvailability> VisitAvailability { get; set; }
 
-        public DbSet<WebApp1.Models.SpecifyVisit> SpecifyVisit { get; set; }
+        public DbSet<WebApp1.Models.SpecifyVisit> SpecifyVisit { get; set; } //???
     }
 }

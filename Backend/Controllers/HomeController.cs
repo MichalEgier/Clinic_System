@@ -74,14 +74,29 @@ namespace WebApp1.Controllers
 
         [Route("Home/Visit")]
         [HttpGet]
-        public async Task<ActionResult> Visit()
+        public async Task<ActionResult> Visit(Object visitDTO)
         {
+            //            VisitAvailability visitAvailability = null;
+            //           if (visitAvailabilityID != null)
+            //               visitAvailability = _db.VisitAvailability.Where(model => model.Id == visitAvailabilityID).FirstOrDefault();
+            //          if (visitAvailability != null)
+            //            {
+            //               ViewData["Date"] = visitAvailability.Date;
+            //               ViewData["VisitAvailabilityID"] = visitAvailabilityID;
+            //           }
+          //  visitAval = _db.VisitAvailability.
+          //      Where(model => model.Id == visitAval.Id).FirstOrDefault();    //fetching visit aval values
+
+          //  ViewData["Date"] = visitAval.Date;
+
             PatientAccount currentUser = await _userManager.GetUserAsync(HttpContext.User);
             if (User.IsInRole("Admin"))
                 return View();
             ViewData["PhoneNumber"] = User.Identity.Name != null && !User.Identity.Name.Equals("") ? currentUser.PhoneNumber : "";
             ViewData["Pesel"] = User.Identity.Name != null && !User.Identity.Name.Equals("") ? 
                                             _db.GetPatient(currentUser.AccountOwnerID).Pesel : "";
+            if (visitDTO != null && visitDTO is VisitDTO)
+                return View((VisitDTO)visitDTO);
             return View();
         }
 
@@ -173,6 +188,13 @@ namespace WebApp1.Controllers
             List<String> specs = _db.Specializations.Select(spec => spec.SpecializationName).ToList<String>();
             ViewData["Specializations"] = specs;
             return View();
+        }
+
+        [Route("Home/SpecifyVisit/{doctorID}")]
+        [HttpGet]
+        public ActionResult SpecifyVisitsForDoctor(int doctorID)
+        {
+            return null;
         }
 
         [Route("Home/SpecifyVisit")]

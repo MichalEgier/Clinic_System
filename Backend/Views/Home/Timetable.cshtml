@@ -7,13 +7,14 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+
 <h1>Timetable</h1>
 
 <table class="table">
     <thead>
         <tr>
             <th>
-                Monday
+                Monday  
             </th>
             <th>
                 Tuesday
@@ -30,17 +31,28 @@
         </tr>
     </thead>
     <tbody>
-@for (int i = 0; i < Model.Count() / 5; i++) {
-        <tr>
-            @for(int j = 0; j < 5; j++)
-            {
-            <td>
-                <a asp-action="Visit">
-                    @Html.DisplayFor(modelItem => (Model.ElementAt(i + (Model.Count() / 5)*j).Date));
-                </a>
-            </td>
-            }
-        </tr>
-}
+        @for (int i = 0; i < Model.Count() / 5; i++)
+        {
+            <tr>
+                @for (int j = 0; j < 5; j++)
+                {
+                    await Html.RenderPartialAsync("_VisitAvailabilityPartial", Model.ElementAt(i + (Model.Count() / 5) * j));
+                }
+            </tr>
+        }
     </tbody>
 </table>
+<!--
+<script>
+    function mouseOverHandler(element) {
+        //   var ratio =80 / element.;
+        element.style.width = "80px";
+        element.style.height = "60px";
+    }
+    function mouseDownHandler(element) {
+        element.style.width = 100 %;
+        element.style.height = 100 %;
+    }
+    onmouseover = "this.style.width = '80px'; this.style.height = '60px'" onmouseout = "this.style.width = 100 %; this.style.height = 100 %;"
+</script>
+-->
