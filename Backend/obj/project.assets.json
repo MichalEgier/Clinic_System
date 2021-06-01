@@ -7772,19 +7772,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\egier\\.nuget\\packages\\": {}
+    "C:\\Users\\pppkw\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egier\\Desktop\\Workspace\\Semestr 6\\Zaawansowane_Techniki_Webowe\\ProjektKoncowy\\Przychodnia\\Przychodnia_Backend\\Clinic_System\\Backend\\WebApp1.csproj",
+      "projectUniqueName": "C:\\Users\\pppkw\\source\\repos\\WebowkaProjekt\\Clinic_System\\Backend\\WebApp1.csproj",
       "projectName": "WebApp1",
-      "projectPath": "C:\\Users\\egier\\Desktop\\Workspace\\Semestr 6\\Zaawansowane_Techniki_Webowe\\ProjektKoncowy\\Przychodnia\\Przychodnia_Backend\\Clinic_System\\Backend\\WebApp1.csproj",
-      "packagesPath": "C:\\Users\\egier\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egier\\Desktop\\Workspace\\Semestr 6\\Zaawansowane_Techniki_Webowe\\ProjektKoncowy\\Przychodnia\\Przychodnia_Backend\\Clinic_System\\Backend\\obj\\",
+      "projectPath": "C:\\Users\\pppkw\\source\\repos\\WebowkaProjekt\\Clinic_System\\Backend\\WebApp1.csproj",
+      "packagesPath": "C:\\Users\\pppkw\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pppkw\\source\\repos\\WebowkaProjekt\\Clinic_System\\Backend\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\egier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pppkw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7867,7 +7872,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
