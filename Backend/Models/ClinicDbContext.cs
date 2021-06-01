@@ -205,33 +205,32 @@ namespace WebApp1.Models
                 prefDate = System.DateTime.Now;
             }
 
-            if (prefDate.DayOfWeek == DayOfWeek.Monday)
+            startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day, startHour, 0, 0);
+
+
+            if (prefDate.DayOfWeek == DayOfWeek.Tuesday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day, startHour, 0, 0);
-            }
-            else if (prefDate.DayOfWeek == DayOfWeek.Tuesday)
-            {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 1, startHour, 0, 0);
+                startOfWeek = startOfWeek.AddDays(-1);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Wednesday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 2, startHour, 0, 0);
+                startOfWeek = startOfWeek.AddDays(-2);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Thursday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 3, startHour, 0, 0);
+                startOfWeek = startOfWeek.AddDays(-3);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Friday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day - 4, startHour, 0, 0);
+                startOfWeek = startOfWeek.AddDays(-4);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Saturday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day + 2, startHour, 0, 0);
+                startOfWeek = startOfWeek.AddDays(2);
             }
             else if (prefDate.DayOfWeek == DayOfWeek.Sunday)
             {
-                startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day + 1, startHour, 0, 0);
+                startOfWeek = startOfWeek.AddDays(1);
             }
 
             for (int i = 0; i < 5; i++)
