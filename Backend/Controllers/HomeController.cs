@@ -119,7 +119,14 @@ namespace WebApp1.Controllers
                     {
                         ViewData["valid"] = "text-danger";
                         ViewData["msg"] = "Someone has already registered for this visit";
-                        return View();
+                        return View("MessageView");
+                    }
+                    else if(_db.Visits.Where(visit => visit.Patient.Pesel.Equals(model.Pesel) && visit.VisitDate.CompareTo(model.VisitDate) == 0)
+                        .Count()!= 0)
+                    {
+                        ViewData["valid"] = "text-danger";
+                        ViewData["msg"] = "You have already registered for a visit during this time. Pick another hour or day";
+                        return View("MessageView");
                     }
                     Visit newVisit = new Visit();
                     //newVisit.VisitID = _db.Visits.Max(visit => visit.VisitID) + 1;
@@ -129,7 +136,7 @@ namespace WebApp1.Controllers
                     {
                         ViewData["valid"] = "text-danger";
                         ViewData["msg"] = "Doctor with given id doesn't exist";
-                        return View();
+                        return View("MessageView");
                     }
                     newVisit.PatientPrevisitNote = model.PatientPrevisitNote;
                     newVisit.Patient = _db.Patients.Where(patient => patient.Pesel.Equals(model.Pesel)).FirstOrDefault();
@@ -137,7 +144,7 @@ namespace WebApp1.Controllers
                     {
                         ViewData["valid"] = "text-danger";
                         ViewData["msg"] = "Patient with given pesel doesn't exist";
-                        return View();
+                        return View("MessageView");
                     }
 
                     newVisit.TelephoneNumber = model.TelephoneNumber;
@@ -149,7 +156,7 @@ namespace WebApp1.Controllers
                 }
 
                 //tutaj do ViewData wpakujemy cos zeby wyswietlilo ten pop up
-                return View();   //redirecting to index  //tutaj jeszcze pop up trzeba by bylo
+                return View("MessageView");   //redirecting to index  //tutaj jeszcze pop up trzeba by bylo
                                 //View("Start") dla przekierowania na index
             }
             catch
