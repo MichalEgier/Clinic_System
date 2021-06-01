@@ -351,6 +351,6 @@ namespace WebApp1.Models
                                                             //nazwac liczba mnoga i na poczatek
         public DbSet<WebApp1.Models.VisitAvailability> VisitAvailability { get; set; }
 
-        public DbSet<WebApp1.Models.SpecifyVisit> SpecifyVisit { get; set; } //???
+        //public DbSet<WebApp1.Models.SpecifyVisit> SpecifyVisit { get; set; }
     }
 }

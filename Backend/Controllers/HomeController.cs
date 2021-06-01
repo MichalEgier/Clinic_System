@@ -214,8 +214,7 @@ namespace WebApp1.Controllers
             System.Diagnostics.Debug.WriteLine(sv.Specialization + " " + sv.Date);
             ViewData["TimetableInfo"] = "Specialization: " + sv.Specialization;
             System.Diagnostics.Debug.WriteLine(sv.Date.Year + "/" + sv.Date.Month + "/" + sv.Date.Day);
-            DateTime dateTime = new DateTime(2021, 6, 1);
-            return View("Timetable", (_db.GetVisitAvailabilitiesForSpecification(sv.Specialization, dateTime).Result));
+            return View("Timetable", (_db.GetVisitAvailabilitiesForSpecification(sv.Specialization, sv.Date).Result));
         }
 
         [Route("Home/Timetable")]
