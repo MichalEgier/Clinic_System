@@ -163,6 +163,19 @@ namespace WebApp1.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("AdminController/DoctorVisits/{id}")]
+        public ActionResult DoctorVisits(int id)
+        {
+            Doctor doctor = _db.GetDoctor(id);
+            if (doctor == null)
+                ViewData["Doctor"] = "Something went wrong! Doctor with that id doesn't exist!";
+            else
+                ViewData["Doctor"] = doctor.DoctorLabel;
+            var visits = _db.GetWeeklyVisitsForDoctor(id, DateTime.Now).Result;
+            return View(visits.OrderBy(model => model.VisitDate));
+        }
+
         
         [HttpGet]
         public ActionResult Search()

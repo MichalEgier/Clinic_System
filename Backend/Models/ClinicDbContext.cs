@@ -121,12 +121,21 @@ namespace WebApp1.Models
         }
 
 
+
         //nw czy to tak moze zostac ze usuwac i dodawac po prostu, czy nie bedzie z tym problemow w przyszlosci
         public void UpdateDoctor(int id, Doctor doctor)
         {
             DeleteDoctor(id);
 
-            Doctors.Add(doctor);
+            var updatedDoctor = Doctors.Where(model => model.DoctorID == doctor.DoctorID).FirstOrDefault();
+            if (updatedDoctor == null)
+                return;
+            updatedDoctor.Name = doctor.Name;
+            updatedDoctor.Surname = doctor.Surname;
+            updatedDoctor.Specializations = doctor.Specializations; //tu nw czy sie cos gryzlo nie bedzie ze specjalizacjami
+            updatedDoctor.Title = doctor.Title;
+
+            Doctors.Update(updatedDoctor);
             this.SaveChanges();
         }
 
@@ -155,12 +164,58 @@ namespace WebApp1.Models
                 .ToList();
         }
 
-      /*  //no need to care about patient ID - method will handle this and will set correct id to patient before adding to db
-        public void AddPatient(Patient patient)
+
+        public async Task<ICollection<Visit>> GetWeeklyVisitsForDoctor(int doctorID, DateTime prefDate)
         {
-            
+            DateTime startOfWeek = new DateTime();
+
+            if (prefDate < System.DateTime.Now)
+            {
+                prefDate = System.DateTime.Now;
+            }
+
+            startOfWeek = new DateTime(prefDate.Year, prefDate.Month, prefDate.Day, 0, 0, 0);
+
+
+            if (prefDate.DayOfWeek == DayOfWeek.Tuesday)
+            {
+                startOfWeek = startOfWeek.AddDays(-1);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Wednesday)
+            {
+                startOfWeek = startOfWeek.AddDays(-2);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Thursday)
+            {
+                startOfWeek = startOfWeek.AddDays(-3);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Friday)
+            {
+                startOfWeek = startOfWeek.AddDays(-4);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Saturday)
+            {
+                startOfWeek = startOfWeek.AddDays(2);
+            }
+            else if (prefDate.DayOfWeek == DayOfWeek.Sunday)
+            {
+                startOfWeek = startOfWeek.AddDays(1);
+            }
+
+            var startOfNextWeek = startOfWeek.AddDays(7);
+
+            return Visits.Include(model => model.Doctor).Include(model => model.Patient)
+                .Include(model => model.VisitCabinet).Where(visit => visit.Doctor.DoctorID == doctorID
+            && visit.VisitDate >= startOfWeek && visit.VisitDate <= startOfNextWeek).ToList();
+
         }
-*/
+
+        /*  //no need to care about patient ID - method will handle this and will set correct id to patient before adding to db
+          public void AddPatient(Patient patient)
+          {
+
+          }
+  */
         public Patient GetPatientByPesel(string pesel)
         {
             return Patients.Where(model => model.Pesel.Equals(pesel)).FirstOrDefault();

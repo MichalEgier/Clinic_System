@@ -35,6 +35,8 @@
             
             @Html.ActionLink(" --Edit-- ", "Edit", "AdminController", new { id = Model.DoctorID });
             
+            @Html.ActionLink(" --Visits-- ", "DoctorVisits", "AdminController", new { id = Model.DoctorID })
+
         }
 
     </td>
