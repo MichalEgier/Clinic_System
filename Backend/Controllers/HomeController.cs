@@ -95,11 +95,15 @@ namespace WebApp1.Controllers
             ViewData["PhoneNumber"] = User.Identity.Name != null && !User.Identity.Name.Equals("") ? currentUser.PhoneNumber : "";
             ViewData["Pesel"] = User.Identity.Name != null && !User.Identity.Name.Equals("") ? 
                                             _db.GetPatient(currentUser.AccountOwnerID).Pesel : "";
+            ViewData["Name"] = User.Identity.Name != null && !User.Identity.Name.Equals("") ?
+                                            _db.GetPatient(currentUser.AccountOwnerID).Name : "";
+            ViewData["Surname"] = User.Identity.Name != null && !User.Identity.Name.Equals("") ?
+                                            _db.GetPatient(currentUser.AccountOwnerID).Surname : "";
 
             //tutaj cos trzeba zrobic zeby zablokowac opcje jednak bez wyboru lekarza
-//            if (year != null && month != null && day != null && hour != null && minute != null && doctorID != null)
-//            {
-                DateTime date = new DateTime(year, month, day, hour, minute, 0);
+            //            if (year != null && month != null && day != null && hour != null && minute != null && doctorID != null)
+            //            {
+            DateTime date = new DateTime(year, month, day, hour, minute, 0);
                 return View(new VisitDTO() { VisitDate = date, DoctorID = doctorID });
  //           }
 
@@ -114,13 +118,29 @@ namespace WebApp1.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    System.Diagnostics.Debug.WriteLine(model.VisitDate);
+                    Patient existingPatientWithPesel = _db.GetPatientByPesel(model.Pesel);
+                    if (existingPatientWithPesel == null)
+                    {
+                        _db.Add(new Patient { Name = model.Name, Surname = model.Surname, Pesel = model.Pesel });
+                        _db.SaveChanges();
+                        existingPatientWithPesel = _db.GetPatientByPesel(model.Pesel);
+                    }
+                    else if (!existingPatientWithPesel.Name.Equals(model.Name) || !existingPatientWithPesel.Surname.Equals(model.Surname))
+                    {
+                        ViewData["valid"] = "text-danger";
+                        ViewData["msg"] = "There is currently patient with such a pesel number in database, but the name or the surname are different than" +
+            "                               specified in form! Please contact clinic via mail or phone to solve this problem or try to register again";
+                        return View("MessageView");
+                    }
+
+                    // if a visit is taken before patient finishes registration redirects to message page
                     if (_db.Visits.Where(visit => visit.Doctor.DoctorID == model.DoctorID && visit.VisitDate.CompareTo(model.VisitDate) == 0).Count() != 0)
                     {
                         ViewData["valid"] = "text-danger";
                         ViewData["msg"] = "Someone has already registered for this visit";
                         return View("MessageView");
                     }
+                    // if there is a visit in the same time redirects to message page
                     else if(_db.Visits.Where(visit => visit.Patient.Pesel.Equals(model.Pesel) && visit.VisitDate.CompareTo(model.VisitDate) == 0)
                         .Count()!= 0)
                     {
@@ -140,12 +160,6 @@ namespace WebApp1.Controllers
                     }
                     newVisit.PatientPrevisitNote = model.PatientPrevisitNote;
                     newVisit.Patient = _db.Patients.Where(patient => patient.Pesel.Equals(model.Pesel)).FirstOrDefault();
-                    if (newVisit.Patient is null)
-                    {
-                        ViewData["valid"] = "text-danger";
-                        ViewData["msg"] = "Patient with given pesel doesn't exist";
-                        return View("MessageView");
-                    }
 
                     newVisit.TelephoneNumber = model.TelephoneNumber;
 

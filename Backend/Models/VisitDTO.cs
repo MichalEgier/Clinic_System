@@ -19,6 +19,10 @@ namespace WebApp1.Models
         [Required]
         [RegularExpression(@"[0-9]{11}", ErrorMessage = "Pesel must be in 11 digits format!")]
         public string Pesel { set; get; }
+        [Required]
+        public string Name { get; set; }
+        [Required]
+        public string Surname { get; set; }
         //not required!
         [Display(Name = "Brief previsit information")]
         public string PatientPrevisitNote { set; get; }
