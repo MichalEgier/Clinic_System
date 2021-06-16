@@ -115,17 +115,28 @@ namespace WebApp1.Models
             foreach (var bridge in toRemove)
                 SpecializationDoctorBridges.Remove(bridge);
 
+            ICollection<Visit> visitsToRemove = Visits.Where(visit => visit.Doctor.Equals(model)).ToList();
+
+            foreach (var visit in visitsToRemove)
+                Visits.Remove(visit);
+
             Doctors.Remove(model);
+
+            this.SaveChanges();
+                                    //after saving changes to see new state - not the best way to do this, but it is fast
+            var specializationsToRemove = Specializations.Where(specialization => SpecializationDoctorBridges.Where(bridge => bridge.Specialization.SpecializationID == specialization.SpecializationID).Count() == 0).ToList();
+
+            foreach (var specialization in specializationsToRemove)
+                Specializations.Remove(specialization);         
 
             this.SaveChanges();
         }
 
 
 
-        //nw czy to tak moze zostac ze usuwac i dodawac po prostu, czy nie bedzie z tym problemow w przyszlosci
         public void UpdateDoctor(int id, Doctor doctor)
         {
-            DeleteDoctor(id);
+           // DeleteDoctor(id);
 
             var updatedDoctor = Doctors.Where(model => model.DoctorID == doctor.DoctorID).FirstOrDefault();
             if (updatedDoctor == null)

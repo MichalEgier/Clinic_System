@@ -147,7 +147,7 @@ namespace WebApp1.Controllers
         }
 
         // POST: Start/Delete/5
-        [HttpDelete]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("AdminController/Delete/{id}")]
         public ActionResult Delete(int id, IFormCollection collection)
